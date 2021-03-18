@@ -13,7 +13,7 @@ public class controller {
 		return "Hello World!!";
 	}
 	
-	@GetMapping("/test01")
+	@GetMapping("/test02")
 	public String example02() {
 		return "GOGOGO";
 	}
