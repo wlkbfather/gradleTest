@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  gradleTest:
+    image: localhost:5000/gradleTest:latest
+    ports:
+      - 8080:8080
