@@ -25,7 +25,7 @@ public class controller {
 	}
 	@GetMapping("/test03")
 	public String example03() {
-		System.out.println("test03 = "+test01);
+	//	System.out.println("test03 = "+test01);
 		System.out.println("test03");
 		return "GOGOGO!!!!";
 	}
